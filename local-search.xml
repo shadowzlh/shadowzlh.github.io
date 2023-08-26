@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>搭建自己的博客</title>
+    <link href="/2023/08/26/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/08/26/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<p>最近越发的觉得, 自己应该记录一些自己平时的学习历程, 最主要是用来装一下 , 所以打算搭一个博客</p><p>本来是想使用 gitee 来搭建博客的, 但是搭建的过程中需要实名认证, 就放弃了, 转而使用 github</p><p>本文分为以下几个步骤: </p><ol><li>注册 github</li><li>创建仓库</li><li>安装 git</li><li>安装 nodejs</li><li>安装 hexo</li><li>更换 hexo 主题</li><li>绑定域名</li></ol><p>关于搭建图床的部分让我们放在下一篇博客中 ( 再水一篇 )</p><h2 id="1-注册-github-账号"><a href="#1-注册-github-账号" class="headerlink" title="1. 注册 github 账号"></a>1. 注册 github 账号</h2><p>此处太简单 略过</p><h2 id="2-创建仓库"><a href="#2-创建仓库" class="headerlink" title="2. 创建仓库"></a>2. 创建仓库</h2><p><img src="https://images.shadowzlh.top/2023/08/4501a7976972d25bc6c70dcac2b385ed.png" alt="image-20230826224503669"></p><p><img src="https://images.shadowzlh.top/2023/08/7e95ed2cbd6fbf43e9ae08a2ec9f6a95.png" alt="image-20230826224525573"></p><p>这里用户名要按照这个格式来 <code>用户名.github.io</code></p><p>选择 public</p><p>然后直接点击创建仓库就可以了</p><h2 id="3-安装-git"><a href="#3-安装-git" class="headerlink" title="3. 安装 git"></a>3. 安装 git</h2><p>​git 官方下载网站 :<a href="https://git-scm.com/downloads">Git - Downloads (git-scm.com)</a></p><p>​下载之后直接安装就可以</p><p>​之后我们就配置一下, 在桌面右键 选择 git bash</p><p><img src="https://images.shadowzlh.top/2023/08/728099d16b462b06bd0fdd46e5c96ad5.png" alt="image-20230826221847591"></p><p>打开后</p><p>我们设置一下自己的用户名和密码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;GitHub 用户名&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;GitHub 邮箱&quot;</span><br></code></pre></td></tr></table></figure><p>之后我们创建一下 SSH 密钥</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-keygen -t rsa -C <span class="hljs-string">&quot;GitHub 邮箱&quot;</span><br></code></pre></td></tr></table></figure><p>然后一直按回车就行</p><p>然后进入  <code>C:\Users\用户名\.ssh</code> 这个路径下</p><p><img src="https://images.shadowzlh.top/2023/08/eff80bac3d883761112818505f648612.png" alt="image-20230826223128513"></p><p>复制这个文件中的公钥</p><p><img src="https://images.shadowzlh.top/2023/08/6499e88d35a1024f009b86284a928492.png" alt="image-20230826223304897"></p><p><img src="https://images.shadowzlh.top/2023/08/ee3ff0773d86713cecab26800f1238b6.png" alt="image-20230826223322184"></p><p>在title 中随便填写一个名字</p><p>然后在 key 中粘贴刚刚复制的公钥</p><p><strong>验证连接</strong></p><p>打开 Git Bash，输入 <code>ssh -T git@github.com</code> 出现 “Are you sure……”，输入 yes 回车确认</p><p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>OAuth2.0</title>
     <link href="/2023/08/26/OAuth2-0/"/>
     <url>/2023/08/26/OAuth2-0/</url>

@@ -16,27 +16,31 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="OAuth2.01. OAuth2 是什么 含义  OAuth2.0是OAuth协议的延续版本，但不向前兼容OAuth 1.0(即完全废止了OAuth1.0)。 OAuth 2.0关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程 2. OAut">
+    <meta name="description" content="最近越发的觉得, 自己应该记录一些自己平时的学习历程, 最主要是用来装一下 , 所以打算搭一个博客 本来是想使用 gitee 来搭建博客的, 但是搭建的过程中需要实名认证, 就放弃了, 转而使用 github 本文分为以下几个步骤:   注册 github 创建仓库 安装 git 安装 nodejs 安装 hexo 更换 hexo 主题 绑定域名  关于搭建图床的部分让我们放在下一篇博客中 ( 再">
 <meta property="og:type" content="article">
-<meta property="og:title" content="OAuth2.0">
-<meta property="og:url" content="http://example.com/2023/08/26/OAuth2-0/index.html">
+<meta property="og:title" content="搭建自己的博客">
+<meta property="og:url" content="http://example.com/2023/08/26/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="OAuth2.01. OAuth2 是什么 含义  OAuth2.0是OAuth协议的延续版本，但不向前兼容OAuth 1.0(即完全废止了OAuth1.0)。 OAuth 2.0关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程 2. OAut">
+<meta property="og:description" content="最近越发的觉得, 自己应该记录一些自己平时的学习历程, 最主要是用来装一下 , 所以打算搭一个博客 本来是想使用 gitee 来搭建博客的, 但是搭建的过程中需要实名认证, 就放弃了, 转而使用 github 本文分为以下几个步骤:   注册 github 创建仓库 安装 git 安装 nodejs 安装 hexo 更换 hexo 主题 绑定域名  关于搭建图床的部分让我们放在下一篇博客中 ( 再">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://images.shadowzlh.top/2023/08/ae7bd889b2bb393719f3f29294b85def.png">
-<meta property="og:image" content="https://images.shadowzlh.top/2023/08/2b8a9aecaf8c2bb77fb46f1c8a71750c.png">
-<meta property="article:published_time" content="2023-08-26T04:14:35.000Z">
-<meta property="article:modified_time" content="2023-08-26T13:28:30.648Z">
+<meta property="og:image" content="https://images.shadowzlh.top/2023/08/4501a7976972d25bc6c70dcac2b385ed.png">
+<meta property="og:image" content="https://images.shadowzlh.top/2023/08/7e95ed2cbd6fbf43e9ae08a2ec9f6a95.png">
+<meta property="og:image" content="https://images.shadowzlh.top/2023/08/728099d16b462b06bd0fdd46e5c96ad5.png">
+<meta property="og:image" content="https://images.shadowzlh.top/2023/08/eff80bac3d883761112818505f648612.png">
+<meta property="og:image" content="https://images.shadowzlh.top/2023/08/6499e88d35a1024f009b86284a928492.png">
+<meta property="og:image" content="https://images.shadowzlh.top/2023/08/ee3ff0773d86713cecab26800f1238b6.png">
+<meta property="article:published_time" content="2023-08-26T14:04:31.000Z">
+<meta property="article:modified_time" content="2023-08-26T14:47:08.392Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="OAUth">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://images.shadowzlh.top/2023/08/ae7bd889b2bb393719f3f29294b85def.png">
+<meta name="twitter:image" content="https://images.shadowzlh.top/2023/08/4501a7976972d25bc6c70dcac2b385ed.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>OAuth2.0 - Hexo</title>
+  <title>搭建自己的博客 - Hexo</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -202,7 +206,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="OAuth2.0"></span>
+            <span id="subtitle" data-typed-text="搭建自己的博客"></span>
           
         </div>
 
@@ -213,8 +217,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-08-26 12:14" pubdate>
-          2023年8月26日 中午
+        <time datetime="2023-08-26 22:04" pubdate>
+          2023年8月26日 晚上
         </time>
       </span>
     
@@ -225,7 +229,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          907 字
+          665 字
         
       </span>
     
@@ -236,7 +240,7 @@
         
         
         
-          8 分钟
+          6 分钟
         
       </span>
     
@@ -273,48 +277,52 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">OAuth2.0</h1>
+            <h1 id="seo-header">搭建自己的博客</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="OAuth2-0"><a href="#OAuth2-0" class="headerlink" title="OAuth2.0"></a>OAuth2.0</h2><h3 id="1-OAuth2-是什么"><a href="#1-OAuth2-是什么" class="headerlink" title="1. OAuth2 是什么"></a>1. OAuth2 是什么</h3><blockquote>
-<p>含义</p>
-</blockquote>
-<p><code>OAuth2.0</code>是<code>OAuth</code>协议的延续版本，但不向前兼容<code>OAuth 1.0</code>(即完全废止了<code>OAuth1.0</code>)。 <code>OAuth 2.0</code>关注客户端开发者的简易性。要么通过组织在资源拥有者和HTTP服务商之间的被批准的交互动作代表用户，要么允许第三方应用代表用户获得访问的权限。同时为Web应用，桌面应用和手机，和起居室设备提供专门的认证流程</p>
-<h3 id="2-OAuth2-的四种角色"><a href="#2-OAuth2-的四种角色" class="headerlink" title="2. OAuth2 的四种角色"></a>2. OAuth2 的四种角色</h3><ol>
-<li>资源所有者(Resource Owner) : 即用户本身</li>
-<li>资源服务器(Resource Server) : 存储受保护的账号信息</li>
-<li>授权服务器(Authorization Server) : 在成功验证用户身份, 并获得授权后, 给客户端派发访问令牌</li>
-<li>客户端(Client) : 即代表你访问的第三方应用</li>
+                <p>最近越发的觉得, 自己应该记录一些自己平时的学习历程, 最主要是用来装一下 , 所以打算搭一个博客</p>
+<p>本来是想使用 gitee 来搭建博客的, 但是搭建的过程中需要实名认证, 就放弃了, 转而使用 github</p>
+<p>本文分为以下几个步骤: </p>
+<ol>
+<li>注册 github</li>
+<li>创建仓库</li>
+<li>安装 git</li>
+<li>安装 nodejs</li>
+<li>安装 hexo</li>
+<li>更换 hexo 主题</li>
+<li>绑定域名</li>
 </ol>
-<h3 id="3-OAuth2-的四种模式"><a href="#3-OAuth2-的四种模式" class="headerlink" title="3.OAuth2 的四种模式"></a>3.OAuth2 的四种模式</h3><blockquote>
-<p>授权码模式 : 最常用的模式, 最繁琐的模式, 也是最安全的模式</p>
-</blockquote>
-<p><img src="https://images.shadowzlh.top/2023/08/ae7bd889b2bb393719f3f29294b85def.png" srcset="/img/loading.gif" lazyload alt="image-20230826212742387"></p>
-<p><strong>流程: 也可以把访问照片理解成为，登录第三方应用</strong></p>
-<ul>
-<li>1.2.3：用户通过浏览器访问第三方应用(client)的一张照片，但浏览器没有权限</li>
-<li>4：通过请求重定向至授权页面，等待用户授权</li>
-<li>5.6：用户授权完成，授权服务器返回一个 code 和 client_id 给浏览器</li>
-<li>7.8.9:浏览器拿着code去请求client，client拿着code去和授权服务器换取<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=Access_token&spm=1001.2101.3001.7020">Access_token</a>和 Refresh_token  </li>
-<li>10.11: client拿着Access_token去和资源服务器换取照片信息,资源服务器验证access_Token的合法性，没问题就允许访问可控资源，返回照片列表给client</li>
-<li>12.13: client拿到照片列表给到浏览器，浏览器返回视图给用户看</li>
-</ul>
-<blockquote>
-<p>简化模式</p>
-</blockquote>
-<p>简化模式相比于授权码模式，少了code换取token这一步，但不安全，token可以被恶意脚本获取，同时token有效期短，浏览器关闭即失效。</p>
-<p><img src="https://images.shadowzlh.top/2023/08/2b8a9aecaf8c2bb77fb46f1c8a71750c.png" srcset="/img/loading.gif" lazyload alt="image-20230826212819435"></p>
-<blockquote>
-<p>密码模式 </p>
-</blockquote>
-<p>密码模式是用户直接将自己的用户名密码交给client（App），client用用户的用户名密码直接换取AccessToken。</p>
-<blockquote>
-<p>客户端模式</p>
-</blockquote>
-<p>只要client请求，我们就将AccessToken发送给它。</p>
-<p>转载: <a target="_blank" rel="noopener" href="https://blog.csdn.net/Huang_Ds/article/details/125533523">【OAuth2】详细讲解_Huang_Ds的博客-CSDN博客</a></p>
+<p>关于搭建图床的部分让我们放在下一篇博客中 ( 再水一篇 )</p>
+<h2 id="1-注册-github-账号"><a href="#1-注册-github-账号" class="headerlink" title="1. 注册 github 账号"></a>1. 注册 github 账号</h2><p>此处太简单 略过</p>
+<h2 id="2-创建仓库"><a href="#2-创建仓库" class="headerlink" title="2. 创建仓库"></a>2. 创建仓库</h2><p><img src="https://images.shadowzlh.top/2023/08/4501a7976972d25bc6c70dcac2b385ed.png" srcset="/img/loading.gif" lazyload alt="image-20230826224503669"></p>
+<p><img src="https://images.shadowzlh.top/2023/08/7e95ed2cbd6fbf43e9ae08a2ec9f6a95.png" srcset="/img/loading.gif" lazyload alt="image-20230826224525573"></p>
+<p>这里用户名要按照这个格式来 <code>用户名.github.io</code></p>
+<p>选择 public</p>
+<p>然后直接点击创建仓库就可以了</p>
+<h2 id="3-安装-git"><a href="#3-安装-git" class="headerlink" title="3. 安装 git"></a>3. 安装 git</h2><p>​	git 官方下载网站 :<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git - Downloads (git-scm.com)</a></p>
+<p>​	下载之后直接安装就可以</p>
+<p>​	之后我们就配置一下, 在桌面右键 选择 git bash</p>
+<p><img src="https://images.shadowzlh.top/2023/08/728099d16b462b06bd0fdd46e5c96ad5.png" srcset="/img/loading.gif" lazyload alt="image-20230826221847591"></p>
+<p>打开后</p>
+<p>我们设置一下自己的用户名和密码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name <span class="hljs-string">&quot;GitHub 用户名&quot;</span><br>git config --global user.email <span class="hljs-string">&quot;GitHub 邮箱&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>之后我们创建一下 SSH 密钥</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-keygen -t rsa -C <span class="hljs-string">&quot;GitHub 邮箱&quot;</span><br></code></pre></td></tr></table></figure>
+
+<p>然后一直按回车就行</p>
+<p>然后进入  <code>C:\Users\用户名\.ssh</code> 这个路径下</p>
+<p><img src="https://images.shadowzlh.top/2023/08/eff80bac3d883761112818505f648612.png" srcset="/img/loading.gif" lazyload alt="image-20230826223128513"></p>
+<p>复制这个文件中的公钥</p>
+<p><img src="https://images.shadowzlh.top/2023/08/6499e88d35a1024f009b86284a928492.png" srcset="/img/loading.gif" lazyload alt="image-20230826223304897"></p>
+<p><img src="https://images.shadowzlh.top/2023/08/ee3ff0773d86713cecab26800f1238b6.png" srcset="/img/loading.gif" lazyload alt="image-20230826223322184"></p>
+<p>在title 中随便填写一个名字</p>
+<p>然后在 key 中粘贴刚刚复制的公钥</p>
+<p><strong>验证连接</strong></p>
+<p>打开 Git Bash，输入 <code>ssh -T git@github.com</code> 出现 “Are you sure……”，输入 yes 回车确认</p>
+<p>显示 “Hi xxx! You’ve successfully……” 即连接成功。</p>
 
                 
               </div>
@@ -323,32 +331,11 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/Java/" class="category-chain-item">Java</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/OAUth/" class="print-no-link">#OAUth</a>
+        <a href="/tags/hexo/" class="print-no-link">#hexo</a>
       
     </div>
   
@@ -360,8 +347,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>OAuth2.0</div>
-      <div>http://example.com/2023/08/26/OAuth2-0/</div>
+      <div>搭建自己的博客</div>
+      <div>http://example.com/2023/08/26/搭建自己的博客/</div>
     </div>
     <div class="license-meta">
       
@@ -405,15 +392,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/08/26/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" title="搭建自己的博客">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">搭建自己的博客</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2023/08/26/OAuth2-0/" title="OAuth2.0">
+                        <span class="hidden-mobile">OAuth2.0</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -430,8 +417,8 @@
     
       <script type="text/javascript">
         var disqus_config = function() {
-          this.page.url = 'http://example.com/2023/08/26/OAuth2-0/';
-          this.page.identifier = '/2023/08/26/OAuth2-0/';
+          this.page.url = 'http://example.com/2023/08/26/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/';
+          this.page.identifier = '/2023/08/26/%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/';
         };
         Fluid.utils.loadComments('#disqus_thread', function() {
           var d = document, s = d.createElement('script');
