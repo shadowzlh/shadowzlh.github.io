@@ -18,7 +18,7 @@
 /* 博客主体背景 */
 main {
 	padding-bottom: 2rem;
-	background-image: url("/img/background.png");
+	background-image: url("/img/background.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
