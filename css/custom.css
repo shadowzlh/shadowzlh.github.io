@@ -1,21 +1,38 @@
+/* 博客主题毛玻璃 */
 #board {
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    opacity: 10;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(30px);
+    border: #e3e3e3 solid 3px;
 }
-
+/* 博客目录概览 */
 .sidebar {
 	top: 5rem;
 	margin-top: 2rem;
 	padding: 1rem 1rem;
 	border-radius: 0.5rem;
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    opacity: 10;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(30px);
 }
-.container-fluid {
+/* 博客主体背景 */
+main {
+	padding-bottom: 2rem;
 	background-image: url("/img/background.png");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
+}
+/* 主页字体颜色 */
+.index-excerpt {
+	color: #293448;
+}
+#color-toggle-btn {
+	display: none;
+}
+.index-card:nth-child(n+2)::before {
+	content: "";
+	width: 100% ;
+	height: 1px;
+	background-color: #fff;
 }
